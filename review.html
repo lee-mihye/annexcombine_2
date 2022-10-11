@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="robots" content="index,follow" />
+    <title>아넥스컴바인>고객후기</title>
+    <!-- Facebook Meta Tags / 페이스북 오픈 그래프 -->
+    <!-- kakao Meta Tags / 카카오 -->
+    <meta property="og:title" content="아넥스컴바인ㅣ물류대행" />
+    <meta property="og:image" content="images/sns-thumbnail.jpg" />
+    <meta property="og:image:alt" content="아넥스컴바인ㅣ물류대행" />
+    <meta property="og:url" content="사이트주소" />
+    <meta property="og:site_name" content="아넥스컴바인ㅣ물류대행" />
+    <meta property="og:description"
+        content="이커머스 전문 물류 대행업체, 풀필먼트, 물류대행, 쇼핑몰물류대행, 물류서비스, 3PL, 4PL, 3자물류, 3PL업체, 물류아웃소싱, 포장대행" />
+    <meta property="ia:markup_url" content="사이트주소" />
+    <meta property="ia:rules_url" content="사이트주소" />
+    <meta property="og:locale" content="ko_kr" />
+    <meta property='og:type' content='website' />
+    <!-- Google / Search Engine Tags / 구글 검색 엔진 -->
+    <meta itemprop="name" content="아넥스컴바인" />
+    <meta itemprop="description"
+        content="이커머스 전문 물류 대행업체, 풀필먼트, 물류대행, 쇼핑몰물류대행, 물류서비스, 3PL, 4PL, 3자물류, 3PL업체, 물류아웃소싱, 포장대행" />
+    <meta itemprop="image" content="images/sns-thumbnail.jpg" />
+    <!-- 메타네임 -->
+    <meta name="keywords"
+        content="아넥스컴바인, 이커머스 물류, 풀필먼트, 물류대행, 쇼핑몰물류대행, 물류서비스, 스마트물류, 물류센터, wms, 3PL, 4PL, 3자물류, 3PL업체, 물류아웃소싱, 포장대행" />
+    <meta name="description"
+        content="이커머스 전문 물류 대행업체, 풀필먼트, 물류대행, 쇼핑몰물류대행, 물류서비스, 3PL, 4PL, 3자물류, 3PL업체, 물류아웃소싱, 포장대행" />
+    <meta name="auhor" content="아넥스컴바인" />
+    <!-- Twitter Meta Tags / 트위터 -->
+    <meta property="twitter:url" content="사이트주소" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="아넥스컴바인ㅣ물류대행" />
+    <meta name="twitter:image" content="images/sns-thumbnail.jpg" />
+    <meta name="twitter:description"
+        content="이커머스 전문 물류 대행업체, 풀필먼트, 물류대행, 쇼핑몰물류대행, 물류서비스, 3PL, 4PL, 3자물류, 3PL업체, 물류아웃소싱, 포장대행" />
+
+    <!-- 링크연결 -->
+    <link rel="shortcut icon" href="images/Favicon_annexpna.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- 제이쿼리 라이브러리 CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- 제이쿼리 UI CDN -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/links.js"></script>
+
+
+    <!-- AOS 라이브러리 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="review_wrap">
+        <!-- 헤더영역 -->
+        <header id="header">
+            <div class="header_area">
+                <!-- 로고 -->
+                <h1 class="logo"><a href=""><img src="images/logo.png" alt="로고"></a></h1>
+                <!-- GNB메뉴 -->
+                <nav>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#" onclick="return false;">브랜드</a>
+                            <ul class="sub_menu">
+                                <li><a href="introduce.html">회사소개</a></li>
+                                <li><a href="center.html">물류센터</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" onclick="return false;">서비스안내</a>
+                            <ul class="sub_menu">
+                                <li><a href="service.html">풀필먼트</a></li>
+                                <li><a href="consultant.html">셀러 컨설팅</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="review.html" class="on">고객후기</a></li>
+                        <li><a href="userguide.html" target="_blank">사용가이드</a></li>
+                        <li><a href="estimate.html">견적문의</a></li>
+                    </ul>
+                    <!-- 햄버거메뉴(width 작아질때 나오기) -->
+                    <div class="ham">
+                        <a href="javascript:void(0);" class="all_menu">
+                            <span class="am_top"></span>
+                            <span class="am_mid"></span>
+                            <span class="am_bot"></span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <!--햄버거 메뉴안의 GNB메뉴-->
+            <nav class="gnb_ham">
+                <ul class="gnb2">
+                    <a href="estimate.html">
+                        <div class="estimate_box">견적문의 바로가기</div>
+                    </a>
+                    <li class="categoty">
+                        <div class="cate_title">브랜드</div>
+                        <ul class="sub_cate_title">
+                            <li><a href="introduce.html">- 회사소개</a></li>
+                            <li><a href="center.html">- 물류센터</a></li>
+                        </ul>
+                    </li>
+                    <li class="categoty">
+                        <div class="cate_title">서비스안내</div>
+                        <ul class="sub_cate_title">
+                            <li><a href="service.html">- 풀필먼트</a></li>
+                            <li><a href="consultant.html">- 셀러컨설팅</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="review.html">고객후기</a></li>
+                    <li><a href="userguide.html" target="_blank">사용가이드</a></li>
+                    <li><a href="estimate.html">견적문의</a></li>
+                </ul>
+            </nav>
+            <div class="bg-shadow"></div>
+        </header>
+
+
+        <!--서비스안내 메인 -->
+        <div class="review_main">
+            <div class="section_area">
+                <!-- 타이틀 텍스트 -->
+                <div class="section_title" data-aos="fade-up" data-aos-offset="200" data-aos-duration="700">
+                    <div class="h3_box">
+                        <h3>고객후기</h3>
+                    </div>
+                    <h2>아넥스컴바인의 최고가치는 <br class="br_block_mo">고객만족입니다.</h2>
+                </div>
+            </div>
+            <!-- 이미지 -->
+            <div class="section_listbox" data-aos="zoom-in" data-aos-offset="150" data-aos-duration="700"
+                data-aos-delay="500">
+                <div class="review_section1">
+                    <img src="images/review.png" alt="리뷰">
+                    <div class="txt">후기로 증명된 <br class="br_block_mo_500">아넥스컴바인</div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- 리뷰리스트 섹션  -->
+        <section id="reviewSlideSection">
+            <div class="sectionTitle" data-aos="zoom-in" data-aos-offset="150" data-aos-duration="700" data-aos-delay="50">고객사들의 솔직한 후기</div>
+
+            <!-- 리뷰슬라이드 시작 -->
+            <div id="reviewSlider" data-aos="zoom-in" data-aos-offset="150" data-aos-duration="700" data-aos-delay="50">
+                <div class="sliderWrap">
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            <b>고정비 감소</b>와 <b>매출 증대, 업무 효<br>
+                                율성 증대</b> 효과까지 있었습니다.
+                        </div>
+                        <div class="title">아트엑스</div>
+                        
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            <b>빠른 입고 서비스, 매주 업데이트<br>
+                                소식, 빠른 피드백
+                            </b>
+                        </div>
+                        <div class="title">리틀오브젝트</div>
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            1:1문의 피드백도 빠르고, 모든<br>
+                            것이 <b>전산 자동화</b>되어 있어서<br>
+                            좋았습니다.
+                        </div>
+                        <div class="title">(주)빙그레</div>
+                        
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            당일출고가 매출 확대로 이어져<br>
+                            가장 만족스럽고, 배송 누락이<br>
+                            발생하지 않아 <b>CS 처리가 줄었<br>
+                                습니다.</b>
+                        </div>
+                        <div class="title">(주) 에이치엘사이언스</div>
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            인터페이스가 번잡하지 않아서<br>
+                            좋구요. <b>상품 출고 중</b>일 때부터<br>
+                            <b>송장 번호를 확인</b>할 수 있어서<br>
+                            좋습니다.
+                        </div>
+                        <div class="title">주식회사 비타본</div>
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            <b>가격도 합리적</b>이고 <b>스마트스토어<br>
+                                와 자동 연동</b> 되는 것도 참 편리하<br>
+                            고 좋아요.
+                        </div>
+                        <div class="title">지인커머스</div>
+                        
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            <b>빠른 응대와 빠른 배송 처리,</b><br>
+                            그리고 한눈에 볼 수 있는<br>
+                            편리한 interface!
+                        </div>
+                        <div class="title">웰빙하우</div>
+                        
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            상품 입고 등록이나 출고 등록<br>
+                            <b>시스템이 너무 편리합니다.</b>
+                        </div>
+                        <div class="title">CLICK TO BUY</div>
+                        
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            시스템이 잘 되어 있고 <b>재고, 비용<br>
+                                등을 확인</b>할 수 있는 부분이<br>
+                            <b>편리함.</b>
+                        </div>
+                        <div class="title">베베킷</div>
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            <b>입출고, 재고 내역 시스템이 잘<br>
+                                되어 있고</b> 문의사항에 대한 답변<br>
+                            을 성실하게 해주셨습니다.
+                        </div>
+                        <div class="title">주식회사 바이얼스</div>
+                    </div>
+                    <div class="item">
+                        <div class="score">
+                            <div class="star_score" style="--rating:4.5;--color:#F6BA10"></div>
+                            <div class="number_score">4.5 / 5</div>
+                        </div>
+                        <div class="textBox Txt-gray800">
+                            고객센터 응대 빠르고 친절해요.<br>
+                            <b>사용자 니즈 파악</b>하려는 부분도<br>
+                            칭찬합니다. <b>깔끔하고 직관적</b>으<br>
+                            로 잘 만든 시스템 같습니다.
+                        </div>
+                        <div class="title">설기네 반려동물 생활연구소</div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <!-- 푸터영역 -->
+        <footer>
+            <div class="footer_area">
+                <img src="images/logo.png" alt="로고" class="foot_logo">
+                <div class="footer_info">
+                    <p>(주)아넥스컴바인</p>
+                    <span class="space">|</span>
+                    <p>대표 : 신두호</p>
+                    <span class="space">|</span>
+                    <p>사업자등록번호 : 683-81-02480</p>
+                    <span class="space">|</span>
+                    <p>제휴문의 : annexcombine@annexcombine.com</p><br class="br_block_mo ">
+                    <p>전화 : 032-811-3340</p>
+                    <span class="space">|</span>
+                    <p>주소 : [21635] 인천광역시 남동구 남촌동 608-3</p>
+                </div>
+                <div class="copyright">Copyright©2022 by AnnexCombine Corporation. All rights reserved.</div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- //wrap -->
+
+
+
+    <script>
+        window.requestAnimFrame = (function () {
+            return (
+                window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                function (callback) {
+                    window.setTimeout(callback, 1000 / 60);
+                }
+            );
+        })();
+
+        const wrapSlider = document.querySelector("#reviewSlider");
+        const widthWrap = wrapSlider.offsetWidth;
+
+        let items;
+        let sliders;
+        let sliderList = [];
+
+        const getSliderList = () => {
+            sliders = document.querySelectorAll(".sliderWrap");
+            // get the dom elements in a array to better use it
+            sliderList = [...sliders];
+        };
+        // made a function for update later
+        getSliderList();
+
+        const slider = document.querySelectorAll(".sliderWrap")[0];
+        const sliderWidth = slider.offsetWidth;
+
+        const sumIsLargerThanSlider = sliderWidth >= widthWrap + sliderWidth;
+
+        const iterationItems = Math.ceil((widthWrap + sliderWidth) / sliderWidth);
+
+        // we clone number of slider we need
+        if (iterationItems > 1) {
+            for (let i = 0; i < iterationItems - 1; i++) {
+                const clone = slider.cloneNode(true);
+                wrapSlider.appendChild(clone);
+            }
+
+            getSliderList();
+        }
+
+        // we create an array for knowing the state of each item
+        let stateList = sliderList.map((item, i) => {
+            let pos = 0;
+            let start = false;
+
+            // here we allow the slide to start fully at left
+            if (i < iterationItems - 1) {
+                pos = -widthWrap + sliders[i].offsetWidth * i;
+                start = true;
+
+                sliders[i].style.transform = `translate(${pos}px, -50%)`;
+            }
+
+            return {
+                pos,
+                start
+            };
+        });
+
+        // logic animation for sliding each item at a time
+        const translate = () => {
+            for (let i = 0; i < sliderList.length; i++) {
+                const slider = sliderList[i];
+                const sliderWidth = slider.offsetWidth;
+                const nextIndex = i != sliderList.length - 1 ? i + 1 : 0;
+                let pos;
+
+                // if slider should be in movement
+                if (stateList[i].start) {
+                    stateList[i].pos -= 1;
+                    pos = stateList[i].pos;
+
+                    slider.style.transform = `translate(${pos}px, -50%)`;
+                }
+
+                const isComplete = pos <= -sliderWidth;
+                const isOutSeen = pos <= -widthWrap - sliderWidth;
+
+                // if the slider is fully on screen
+                if (isComplete) {
+                    stateList[nextIndex].start = true;
+                }
+                // if the slider finished crossing the slider and has disappeared
+                if (isOutSeen) {
+                    stateList[i].start = false;
+                    stateList[i].pos = 0;
+                }
+            }
+        };
+
+        let isPaused = false;
+
+        function start() {
+            if (!isPaused) {
+                translate();
+            }
+
+            requestAnimFrame(start);
+        }
+
+        wrapSlider.addEventListener("mouseover", () => {
+            isPaused = true;
+        });
+        wrapSlider.addEventListener("mouseout", () => {
+            isPaused = false;
+        });
+        wrapSlider.addEventListener("touchstart", () => {
+            isPaused = true;
+        });
+        wrapSlider.addEventListener("touchstart", () => {
+            isPaused = false;
+        });
+
+        start();
+    </script>
+
+</body>
+
+</html>
